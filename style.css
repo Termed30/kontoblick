@@ -1,0 +1,7 @@
+:root { --text:#1d1f1e; --muted:#5f6662; --bg:#fbfaf7; --accent:#1f6b5c; }
+@media (prefers-color-scheme: dark) { :root { --text:#e8eae8; --muted:#a3aaa6; --bg:#141615; --accent:#5cb39a; } }
+body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+main { max-width:640px; margin:0 auto; padding:48px 20px 64px; }
+h1 { font-size:28px; margin:0 0 8px; } h2 { font-size:19px; margin:32px 0 8px; }
+p, li { color:var(--text); } .klein { color:var(--muted); font-size:15px; }
+a { color:var(--accent); }

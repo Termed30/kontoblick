@@ -1,0 +1,11 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zurück zu Kontoblick</title><link rel="stylesheet" href="style.css"></head><body><main>
+<h1>Freigabe erledigt</h1>
+<p>Du wirst zurück in die App geleitet. Falls nichts passiert:</p>
+<p><a id="weiter" href="kontoblick://callback">Zurück zu Kontoblick</a></p>
+<script>
+  var ziel = "kontoblick://callback" + window.location.search + window.location.hash;
+  document.getElementById("weiter").href = ziel;
+  window.location.replace(ziel);
+</script>
+</main></body></html>
